@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dice_roller/styled_text.dart';
 
-var beginAlignment = Alignment.topLeft;
-var endAlignment = Alignment.bottomRight;
+const beginAlignment = Alignment.topLeft;
+const endAlignment = Alignment.bottomRight;
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
@@ -10,9 +10,9 @@ class GradientContainer extends StatelessWidget {
   @override
   build(context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         gradient: LinearGradient(
-          colors: const [
+          colors: [
             Colors.purple,
             Colors.deepPurple,
           ],
