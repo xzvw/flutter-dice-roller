@@ -7,14 +7,14 @@ const endAlignment = Alignment.bottomRight;
 class GradientContainer extends StatelessWidget {
   final List<Color> colors;
 
-  void onRollDice() {
-    // @todo
-  }
-
   const GradientContainer({
     required this.colors,
     super.key,
   });
+
+  void onRollDice() {
+    // @todo
+  }
 
   @override
   build(context) {
